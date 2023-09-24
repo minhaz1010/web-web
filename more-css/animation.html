@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <style>
+    .field{
+      width: 100%;
+      height: 700px;
+      position: relative;
+    }
+    .bat{
+    width: 500px;
+    transition: transform 0.3s ease-in;
+    }
+    .field:hover .bat{
+        transform: rotate(-65deg);
+        transform-origin: top right;
+    }
+    .ball{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: red;
+      position: relative;
+      left: 705px;
+      transition: transform 0.7s ease-out 0.3s;
+    }
+    .field:hover .ball{
+      transform: translate(800px);
+    }
+  </style>
+</head>
+<body>
+  <div class="field">
+    <img src="bat2.jpg" alt="" class="bat" >
+    <div class="ball">
+    </div>
+  </div>
+</body>
+</html>
