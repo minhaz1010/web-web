@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .horizontal-loop {
+        white-space: nowrap;
+        animation: scroll 11s linear infinite; /* Adjust the duration as needed */
+      }
+      p{
+        font-size: 40px;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(-100%); /* Start off-screen to the right */
+        }
+        100% {
+          transform: translateX(100%); /* End off-screen to the left */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="horizontal-loop">
+      <p>This text will scroll horizontally in a loop.</p>
+    </div>
+  </body>
+</html>
