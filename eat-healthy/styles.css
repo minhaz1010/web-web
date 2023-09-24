@@ -1,0 +1,185 @@
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster+Two&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Lobster Two', cursive;
+     font-size: 25px;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#first-section{
+  display: flex;
+}
+#first-div{
+  width: 50%;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+#first-div h2{
+  font-size:3rem;
+  word-spacing: 30px;
+}
+#first-div p{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.link-button{
+  background: linear-gradient(orange,tomato);
+  border-radius: 10% 25%;
+  padding: 30px;
+  text-decoration: none;
+  color: white;
+}
+#second-div{
+  width: 50%;
+  margin-right: 15%;
+  margin-bottom: -5%;
+}
+
+
+/* second section shuru */
+#second-section{
+  display: flex;
+  width: 100%;
+  height: 800px;
+  background: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#girl-image{
+  padding-left: 13%;
+  position: relative;
+  top: 10%;
+}
+#about-girl{
+  padding-top: 5%;
+  padding-left: 5%;
+}
+#about-girl h2{
+  font-size: 2.1rem;
+  margin-bottom: 3%;
+}
+#about-girl p{
+  text-align: justify;
+  width: 50%;
+  letter-spacing: 0.1vw;
+  word-spacing: 1.1vw;
+  line-height: 2vw;
+  margin: 3vw 0 7vw;
+  font-size: 1.7vw;
+
+}
+
+
+
+/* third section kaaj shuru  */
+.food{
+  margin-bottom: 10%;
+}
+.title{
+  text-align: center;
+}
+.title h2{
+  font-size: 3rem;
+}
+.title p{
+  width: 80%;
+  padding-left: 30%;
+  font-size: 1.5rem;
+  margin: 3vw 0;
+}
+
+.food-recipies{
+  display: flex;
+  gap: 30px;
+  /* box-shadow: 10px 10px 15px gray, -10px -10px 15px gray; */
+}
+.food1{
+  text-align: center;
+  box-shadow: 10px 10px 15px gray, -10px -10px 15px gray;
+  width:42%;
+  margin-left: 5%;
+  height:35rem;
+  border-radius: 5%;
+}
+.food-image{
+  width: 80%;
+  height: 68%;
+  border-radius: 10%;
+  margin: 5% 0 3%;
+}
+.recipie-title{
+  text-align: left;
+  padding-left: 20px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+.para-title{
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-top: 2%;
+  padding-left: 5px;
+}
+
+/* show-off section */
+.show-off{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+  margin-bottom: 10%;
+  width: 80%;
+  height: 30%;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 30px 30px 50px gray,-30px -30px 50px gray;
+}
+.social{
+  padding-left: 3%;
+}
+#last{
+  padding-right: 3%;
+}
+.social h3{
+ font-weight: 900;
+ font-size: 3rem;
+ margin-bottom: 1.2rem;
+}
+.social p{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  height:300px;
+  color:white;
+  text-align: center;
+}
+span{
+  color: yellow;
+}
+footer h2,span{
+  padding-top:3rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+footer p{
+  font-size: 1.5rem;
+}

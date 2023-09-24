@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster+Two&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Lobster Two', cursive;
+     font-size: 25px;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 20vw;
+  font-stretch: wider;
+  word-spacing: 10px;
+}
