@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster+Two&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Lobster Two', cursive;
+     font-size: 25px;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+  display: grid;
+  height: 100vh;
+  gap: 10px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 10% 80% 10%;
+  grid-template-areas: 
+  "nav nav nav"
+  "ass art art"
+  "cnt cnt cnt";
+}
+.box{
+  /* width: 10vw; */
+  /* height: 10vw; */
+  background-color: lightseagreen;
+}
+#nav{
+  grid-area: nav;
+}
+#aside{
+  grid-area: ass;
+}
+#article{
+  grid-area: art;
+}
+
+#footer{
+  grid-area: cnt;
+}
